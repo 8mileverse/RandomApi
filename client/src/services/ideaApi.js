@@ -19,7 +19,7 @@
 import axios from "axios";
 
 const ideaApi = axios.create({
-  baseURL: "http://localhost:5003/api/ideas", // Ensure this is correct
+  baseURL: "/api/ideas", // Ensure this is correct
   headers: {
     "Content-Type": "application/json",
   },
